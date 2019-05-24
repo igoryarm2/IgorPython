@@ -5,6 +5,7 @@ def greet_user(bot, update):
     text = 'Вызван /start'
     print(text)
     update.message.reply_text(text)
+
 def main():
     mybot = Updater("768453628:AAHeNvlEQqNG6i2c8VgVvPmjhDRO32O7O5o", request_kwargs=PROXY)
     dp = mybot.dispatcher
