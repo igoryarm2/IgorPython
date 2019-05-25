@@ -1,11 +1,11 @@
 def Str_compit(one,two):
-    if one_str != str(one_str) and two_str != str(two_str):
+    if one != str(one) and two != str(two):
         print(0)
-    elif one_str != two_str and two_str != "learn":
+    elif one != two and len(two) <= len(one):
         print(1)
-    elif one_str == two_str:
+    elif one == two:
         print(2)
-    elif one_str != two_str and two_str == "learn":
+    elif one != two and two == "learn":
         print(3)
 one_str = input("Первая строка:")
 two_str = input("Вторая строка:")
