@@ -13,9 +13,7 @@
 """
 
 def get_summ(num_one, num_two):
-    """
-    Замените pass на ваш код
-    """
+    
     pass
     
 if __name__ == "__main__":
